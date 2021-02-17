@@ -3,14 +3,15 @@ const insert = document.getElementById("insert");
 window.addEventListener("keydown", keys);
 
 function keys(event) {
+  console.log(event);
   insert.innerHTML = `
         <div class="key">
-            ${event.key === " " ? space : event.key}
+            ${event.key === " " ? "Space" : event.key}
             <small>event.key</small>
         </div>
 
         <div class="key">
-            ${event.keyCode}
+            ${event.keyCode} 
             <small>event.keycode</small>
         </div>
 
