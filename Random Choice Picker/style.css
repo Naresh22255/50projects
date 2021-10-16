@@ -27,7 +27,7 @@ h3 {
   max-width: 500px;
 }
 
-textarea {
+#textarea {
   border: none;
   display: block;
   width: 100%;
